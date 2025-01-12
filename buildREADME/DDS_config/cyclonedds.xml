@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd">
+    <Domain Id="any">
+        <General>
+            <Interfaces>
+                <!-- Specify the network interface by its address -->
+                <NetworkInterface address="192.168.2.100"/>
+            </Interfaces>
+            <AllowMulticast>true</AllowMulticast> <!-- Explicitly disable multicast -->
+            <MaxMessageSize>65500B</MaxMessageSize>
+        </General>
+        <Internal>
+            <Watermarks>
+                <WhcHigh>500kB</WhcHigh>
+            </Watermarks>
+        </Internal>
+        <Tracing>
+            <Verbosity>finest</Verbosity> <!-- 最详细的日志 -->
+            <OutputFile>log/cdds.log.${CYCLONEDDS_PID}</OutputFile> <!-- 日志文件位置 -->
+        </Tracing>
+    </Domain>
+</CycloneDDS>

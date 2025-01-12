@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44B22959-ECAD-3A7A-B82B-75EFBE7BB8D3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>_confgen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/tools/_confgen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/tools/_confgen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\HashUtilities.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\include\dds\ddsi\ddsi_config.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi__cfgelems.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi_config.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\cfgunits.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_md.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rnc.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rst.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_xsd.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\tools\_confgen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/tools/_confgen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/tools/_confgen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\HashUtilities.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\include\dds\ddsi\ddsi_config.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi__cfgelems.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi_config.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\cfgunits.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_md.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rnc.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rst.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_xsd.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\tools\_confgen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/tools/_confgen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/tools/_confgen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\HashUtilities.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\include\dds\ddsi\ddsi_config.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi__cfgelems.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi_config.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\cfgunits.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_md.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rnc.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rst.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_xsd.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\tools\_confgen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/tools/_confgen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/tools/_confgen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\HashUtilities.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\include\dds\ddsi\ddsi_config.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi__cfgelems.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsi\src\ddsi_config.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\_confgen.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\cfgunits.h;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_defconfig.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_md.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rnc.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_rst.c;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\_confgen\generate_xsd.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\tools\_confgen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\ZERO_CHECK.vcxproj">
+      <Project>{D689A21F-C05A-36D5-BAC1-0B17A56010D7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

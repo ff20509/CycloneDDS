@@ -1,0 +1,10 @@
+^D:\项目\SIMULATER_FREERTOS_CYCLONEDDS\CYCLONEDDS-MASTER\SRC\TOOLS\IDLPP\CMAKELISTS.TXT
+setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/tools/idlpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

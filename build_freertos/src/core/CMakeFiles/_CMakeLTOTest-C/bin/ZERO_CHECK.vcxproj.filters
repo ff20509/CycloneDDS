@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\core\CMakeFiles\_CMakeLTOTest-C\bin\CMakeFiles\5d8c0addcdb2cc1401e827c6e28c0cdc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76BAF279-376D-3EE8-9247-A1CA0B6F55A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

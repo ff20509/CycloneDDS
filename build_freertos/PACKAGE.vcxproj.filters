@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\e9c3162e3d160f38aaba63ace4bf776a\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76EB4C0B-A722-39F7-9316-9A0D39945106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

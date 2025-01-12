@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E56FFF4D-A1C0-35C6-BF27-840B8D4DD321}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ddsrt-internal</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ddsrt-internal.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ddsrt-internal</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ddsrt-internal.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ddsrt-internal</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ddsrt-internal.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ddsrt-internal</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ddsrt-internal.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ddsrt-internal</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\ddsrt-internal\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/ddsrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/ddsrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\GenerateExportHeader.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\exportheader.cmake.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\GenerateExportHeader.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\config.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\features.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/ddsrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/ddsrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\GenerateExportHeader.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\exportheader.cmake.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\GenerateExportHeader.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\config.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\features.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/ddsrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/ddsrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\GenerateExportHeader.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\exportheader.cmake.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\GenerateExportHeader.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\config.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\features.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/ddsrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/src/ddsrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckCompilerFlag.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\GenerateExportHeader.cmake;D:\Program Files (x86)\Cmake\share\cmake-3.28\Modules\exportheader.cmake.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\cmake\Modules\GenerateExportHeader.cmake;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\config.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\features.h.in;D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include\dds\config.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\avl.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\bits.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\fibheap.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\hopscotch.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\log.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\retcode.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\attributes.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\endian.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\arch.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\misc.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\mh3.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\io.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\process.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\sched.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\strtod.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\strtol.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\types.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\countargs.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\foreach.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\static_assert.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\circlist.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\atomics.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\atomics\arm.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\atomics\gcc.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\atomics\msvc.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\atomics\sun.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\dynlib.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\environ.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\heap.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\ifaddrs.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\md5.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\netstat.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\string.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\sockets.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sockets_priv.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\threads.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\threads_priv.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\cdtors.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\random.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\align.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\sockets\windows.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\sync\freertos.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\threads\freertos.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\include\dds\ddsrt\time\freertos.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include\dds\features.h" />
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\ddsrt\include\dds\version.h" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\atomics.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\avl.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\dynlib.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\bits.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\bswap.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\io.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\log.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\retcode.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\strtod.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\strtol.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\mh3.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\environ.c">
+      <ObjectFileName>$(IntDir)/src/environ.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\expand_vars.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\fibheap.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\hopscotch.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\circlist.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\threads.c">
+      <ObjectFileName>$(IntDir)/src/threads.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\string.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sockets.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\md5.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\xmlparser.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\ifaddrs.c">
+      <ObjectFileName>$(IntDir)/src/ifaddrs.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\cdtors.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\random.c">
+      <ObjectFileName>$(IntDir)/src/random.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\time.c">
+      <ObjectFileName>$(IntDir)/src/time.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\ifaddrs\windows\ifaddrs.c">
+      <ObjectFileName>$(IntDir)/src/ifaddrs/windows/ifaddrs.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sockets\windows\socket.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sockets\windows\gethostname.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\environ\posix\environ.c">
+      <ObjectFileName>$(IntDir)/src/environ/posix/environ.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\heap\freertos\heap.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sync\freertos\sync.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\sync\freertos\tasklist.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\threads\freertos\threads.c">
+      <ObjectFileName>$(IntDir)/src/threads/freertos/threads.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\time\freertos\time.c">
+      <ObjectFileName>$(IntDir)/src/time/freertos/time.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\process\freertos\process.c" />
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\ddsrt\src\random\posix\random.c">
+      <ObjectFileName>$(IntDir)/src/random/posix/random.c.obj</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\ZERO_CHECK.vcxproj">
+      <Project>{D689A21F-C05A-36D5-BAC1-0B17A56010D7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

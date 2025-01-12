@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\core\CMakeFiles\_CMakeLTOTest-C\src\foo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\core\CMakeFiles\_CMakeLTOTest-C\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADBA049F-7D1A-3EFB-845E-13DD0211C60D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

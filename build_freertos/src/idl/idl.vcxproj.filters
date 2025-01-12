@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\symbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\directive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\expression.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\processor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\scanner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\annotation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\scope.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\visit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\keylist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\hashid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\src\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\src\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\expression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\retcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\visit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\include\idl\heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\include\idl\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\include\idl\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\include\idl\attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\include\idl\endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\include\idl\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\annotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\directive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\expression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\hashid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\idl\src\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\src\keylist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\dds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_loan_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qosdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_rhc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_internal_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_loaned_sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_psmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_data_type_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qos_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\core\include\dds\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\efb1092d0688298d2861f159f57629e7\misc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\efb1092d0688298d2861f159f57629e7\attributes.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\efb1092d0688298d2861f159f57629e7\endian.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\efb1092d0688298d2861f159f57629e7\md5.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\CMakeFiles\c11d56cc8b3e772b3416fceb2b9ea341\md5.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\idl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76EB4C0B-A722-39F7-9316-9A0D39945106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0704662-DD26-33D9-A48F-28D541BCCD79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10D1A56B-0A41-3ED6-B58D-4584B18C5275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

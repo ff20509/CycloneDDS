@@ -1,0 +1,10 @@
+^D:\项目\SIMULATER_FREERTOS_CYCLONEDDS\CYCLONEDDS-MASTER\BUILD_FREERTOS\CMAKEFILES\E9C3162E3D160F38AABA63ACE4BF776A\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (x86)\Cmake\bin\cmake.exe" -SD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master -BD:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/build_freertos/CycloneDDS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

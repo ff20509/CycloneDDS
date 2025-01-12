@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__generator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__types.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__descriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\src\libidlc\libidlc__generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\include\libidlc\libidlc_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\tools\idlc\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\dds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_loan_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qosdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_rhc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_internal_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_loaned_sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_psmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_data_type_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\core\ddsc\include\dds\ddsc\dds_public_qos_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\build_freertos\src\core\include\dds\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\项目\Simulater_FreeRTOS_CycloneDDS\cyclonedds-master\src\tools\idlc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0704662-DD26-33D9-A48F-28D541BCCD79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10D1A56B-0A41-3ED6-B58D-4584B18C5275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

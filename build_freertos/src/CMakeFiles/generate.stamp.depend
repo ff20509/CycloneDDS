@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Program Files (x86)/Cmake/share/cmake-3.28/Modules/FindGit.cmake
+D:/Program Files (x86)/Cmake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files (x86)/Cmake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/项目/Simulater_FreeRTOS_CycloneDDS/cyclonedds-master/src/CMakeLists.txt
